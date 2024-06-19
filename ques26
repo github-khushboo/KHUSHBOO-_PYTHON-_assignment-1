@@ -1,0 +1,27 @@
+#Write a program in python that checks if a string starts with a given prefix 
+#or ends with a given suffix
+str = "greedsforgreeds" 
+
+ 
+
+# startswith()
+
+print(str.startswith("greeds")) 
+
+print(str.startswith("Greeds", 4, 10)) 
+
+print(str.startswith("Greeds", 8, 14)) 
+
+ 
+
+print("\n") 
+
+ 
+
+# endswith
+
+print(str.endswith("Geeks")) 
+
+print(str.endswith("Geeks", 2, 8)) 
+
+print(str.endswith("for", 5, 8))

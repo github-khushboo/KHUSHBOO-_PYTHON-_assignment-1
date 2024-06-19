@@ -1,0 +1,10 @@
+#Write a python program that concatenates two strings and returns the 
+ #result
+def concatenate_strings(str1, str2):
+    return str1 + str2
+
+# Example usage:
+string1 = input("enter str 1: ")
+string2 = input ("enter str 2 : ")
+result = concatenate_strings(string1, string2)
+print(result) 

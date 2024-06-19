@@ -1,0 +1,8 @@
+#Write a program in python that converts a string into a list of its characters
+def string_to_list(input_string):
+    return list(input_string)
+
+# Example usage:
+my_string = "Hello"
+my_list = string_to_list(my_string)
+print(my_list)

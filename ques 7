@@ -1,0 +1,9 @@
+#Write a python program that takes a string as input and returns its length
+# Get user input
+input_string = input("Enter a string: ")
+
+# Calculate the length of the input string
+length = len(input_string)
+
+# Print the length
+print("The length of the input string is:", length)

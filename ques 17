@@ -1,0 +1,11 @@
+#Write a program in python that converts a given string to title case (first letter of each word capitalized)
+ 
+
+def to_title_case(text):
+    return text.title()
+
+
+input_string = "this is an example string"
+title_cased = to_title_case(input_string)
+print(title_cased)  
+
